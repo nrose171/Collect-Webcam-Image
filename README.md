@@ -5,12 +5,12 @@ This program utilizes openCV to obtain a single frame from a webcam and save it.
 Need to have openCV installed and g++ version 5.4 or greater.
 
 # To Compile
-g++ basicImage.cpp -o <executable filename> `pkg-config --cflags --libs`
+g++ basicImage.cpp -o \<executable filename\> \`pkg-config --cflags --libs\`
 //Replace <executable filename> with whatever you want to name your executable//
-EX) g++ basicImage.cpp -o img `pkg-config --cflags --libs`
+EX) g++ basicImage.cpp -o img \`pkg-config --cflags --libs\`
 
 # To Run
-./<executable filename>
+./\<executable filename\>
 EX) ./img
 
 # Function
